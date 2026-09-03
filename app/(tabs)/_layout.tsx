@@ -46,7 +46,19 @@ export default function TabLayout() {
           ),
         }}
       />
-
+<Tabs.Screen
+        name="attendance"
+        options={{
+          title: "Attendance",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol
+              size={28}
+              name="checkmark.circle.fill"
+              color={color}
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
